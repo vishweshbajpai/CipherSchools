@@ -1,20 +1,23 @@
 <html>
-    <head>
-        <title>Stopwatch</title>
-        <link rel="stylesheet" href="./index.css"/>
-    </head>
+  <head>
+    <title>Stopwatch</title>
+    <link rel="stylesheet" href="./index.css" />
+    <script src="./index.js"></script>
+  </head>
 
-    <body>
-        <main class="wrapper">
-            <div class="box">
-                <section>Stopwatch</section>
-                <input value="00:00"/>
-                <div>
-                    <button type="button">Start</button>
-                    <button type="button">Stop</button>
-                    <button type="button">Reset</button>
-                </div>
-            </div>
-        </main>
-    </body>
+  <body>
+    <main class="wrapper">
+      <div class="box">
+        <section>Stopwatch</section>
+        <h1><span id="seconds">00</span>:<span id="tens">00</span></h1>
+        <div>
+          <button id="button-start">Start</button>
+          <button id="button-stop">Stop</button>
+          <button id="button-reset">Reset</button>
+        </div>
+      </div>
+    </main>
+
+    
+  </body>
 </html>
