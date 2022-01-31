@@ -37,6 +37,11 @@
   color: #008000a8;
 }
 
+.green:hover {
+    color: white;
+    background-color: #008000a8;
+}
+
 .green svg {
   width: 20px;
 }
@@ -44,6 +49,11 @@
 .red {
   border: 1px solid #ff0000b8;
   color: #ff0000b8;
+}
+
+.red:hover {
+    color: white;
+    background-color: #ff0000b8;
 }
 
 .red svg {

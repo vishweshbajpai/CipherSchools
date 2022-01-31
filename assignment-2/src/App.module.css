@@ -37,6 +37,10 @@ button {
   cursor: pointer;
 }
 
+button:hover {
+  background-color: #1140ab;
+}
+
 .list {
   display: flex;
   flex-direction: column;
