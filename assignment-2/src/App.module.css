@@ -1,0 +1,44 @@
+.background {
+  background-color: #fefaf0;
+  min-height: 100vh;
+}
+
+.background .padding-wrapper {
+  padding: 30px 200px;
+}
+
+.background header {
+  font-size: 30px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.background .subHeading {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.background input {
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  outline: none;
+  padding: 10px;
+  width: -webkit-fill-available;
+}
+
+button {
+  margin-top: 15px;
+  color: white;
+  background-color: #427bff;
+  border-radius: 5px;
+  border: 1px solid;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+}

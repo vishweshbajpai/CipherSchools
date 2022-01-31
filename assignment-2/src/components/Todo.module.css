@@ -1,0 +1,51 @@
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    background-color: white;
+    padding: 10px 10px 10px 15px;
+    width: -webkit-fill-available;
+}
+
+.wrapper .todo-text {
+    margin: auto 0;
+}
+
+.wrapper .buttonsContainer {
+    display: flex;
+    margin: auto 0 auto 15px;
+}
+
+.wrapper .buttonsContainer .button {
+    margin-right: 10px;
+    border-radius: 5px;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+/* .wrapper .buttonsContainer .button svg {
+    width: 20px;
+} */
+
+.green {
+    border: 1px solid green;
+    color: green;
+}
+
+.green svg {
+    width: 20px;
+}
+
+.red {
+    border: 1px solid red;
+    color: red;
+}
+
+.red svg {
+    width: 15px;
+}
