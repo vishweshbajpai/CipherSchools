@@ -21,14 +21,10 @@ function App() {
     setTodoText("");
   };
 
-  const onCompleteHandler = () => {
-    console.log('complete');
-  };
-
   const onDeleteHandler = (id) => {
     const updatedArr = arr.filter((item) => item.id !== id);
     setArr([...updatedArr]);
-    console.log(10);
+    console.log(id);
   };
 
   return (
@@ -49,8 +45,8 @@ function App() {
           {arr.map((todo) => (
             <Todo
               key={todo.id}
+              id={todo.id}
               text={todo.text}
-              onComplete={onCompleteHandler}
               onDelete={onDeleteHandler}
             />
           ))}
